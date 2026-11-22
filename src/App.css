@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f5f9;
+    background-image: url(assets/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+.profile{ 
+    background: linear-gradient(skyblue, rgb(190, 232, 246));
+    padding: 15px;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.profile-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+}
